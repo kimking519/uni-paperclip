@@ -116,6 +116,23 @@ export function OpenClawGatewayConfigFields({
         />
       </Field>
 
+      <SecretField
+        label="Gateway auth token (x-openclaw-token)"
+        value={
+          isCreate
+            ? (values?.gatewayToken ?? "")
+            : effectiveGatewayToken
+        }
+        onCommit={(v) => {
+          if (isCreate) {
+            set!({ gatewayToken: v });
+          } else {
+            commitGatewayToken(v);
+          }
+        }}
+        placeholder="OpenClaw gateway token"
+      />
+
       <PayloadTemplateJsonField
         isCreate={isCreate}
         values={values}
@@ -183,13 +200,6 @@ export function OpenClawGatewayConfigFields({
               />
             </Field>
           )}
-
-          <SecretField
-            label="Gateway auth token (x-openclaw-token)"
-            value={effectiveGatewayToken}
-            onCommit={commitGatewayToken}
-            placeholder="OpenClaw gateway token"
-          />
 
           <Field label="Role">
             <DraftInput

@@ -474,6 +474,8 @@ export interface CreateConfigValues {
   worktreeParentDir?: string;
   runtimeServicesJson?: string;
   defaultEnvironmentId?: string;
+  /** OpenClaw gateway token for openclaw_gateway adapter during agent creation. */
+  gatewayToken?: string;
   maxTurnsPerRun: number;
   heartbeatEnabled: boolean;
   intervalSec: number;
