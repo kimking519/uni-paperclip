@@ -1,0 +1,72 @@
+{
+  "common": {
+    "language": "语言",
+    "save": "保存",
+    "cancel": "取消",
+    "delete": "删除",
+    "edit": "编辑",
+    "create": "创建",
+    "search": "搜索",
+    "loading": "加载中...",
+    "noResults": "无结果",
+    "back": "返回"
+  },
+  "language": {
+    "en": "English",
+    "zh": "简体中文",
+    "switchToChinese": "切换到中文",
+    "switchToEnglish": "Switch to English"
+  },
+  "nav": {
+    "dashboard": "仪表盘",
+    "companies": "公司",
+    "agents": "代理",
+    "issues": "任务",
+    "projects": "项目",
+    "goals": "目标",
+    "approvals": "审批",
+    "routines": "日常",
+    "inbox": "收件箱",
+    "org": "组织架构图",
+    "settings": "设置",
+    "plugins": "插件",
+    "costs": "费用",
+    "activity": "活动"
+  },
+  "company": {
+    "title": "公司",
+    "newCompany": "新建公司",
+    "goal": "目标",
+    "budget": "预算",
+    "employees": "员工",
+    "createAgent": "创建代理"
+  },
+  "agent": {
+    "title": "代理",
+    "name": "名称",
+    "role": "角色",
+    "status": "状态",
+    "idle": "空闲",
+    "running": "运行中",
+    "paused": "已暂停",
+    "newAgent": "新建代理",
+    "reportsTo": "上级"
+  },
+  "issue": {
+    "title": "任务",
+    "backlog": "待办",
+    "inProgress": "进行中",
+    "review": "审核",
+    "done": "已完成",
+    "newIssue": "新建任务",
+    "assignee": "负责人",
+    "priority": "优先级"
+  },
+  "settings": {
+    "instanceSettings": "实例设置",
+    "companySettings": "公司设置",
+    "general": "通用",
+    "access": "访问",
+    "environments": "环境"
+  }
+}

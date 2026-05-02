@@ -1,0 +1,72 @@
+{
+  "common": {
+    "language": "Language",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "create": "Create",
+    "search": "Search",
+    "loading": "Loading...",
+    "noResults": "No results",
+    "back": "Back"
+  },
+  "language": {
+    "en": "English",
+    "zh": "简体中文",
+    "switchToChinese": "切换到中文",
+    "switchToEnglish": "Switch to English"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "companies": "Companies",
+    "agents": "Agents",
+    "issues": "Issues",
+    "projects": "Projects",
+    "goals": "Goals",
+    "approvals": "Approvals",
+    "routines": "Routines",
+    "inbox": "Inbox",
+    "org": "Org Chart",
+    "settings": "Settings",
+    "plugins": "Plugins",
+    "costs": "Costs",
+    "activity": "Activity"
+  },
+  "company": {
+    "title": "Company",
+    "newCompany": "New Company",
+    "goal": "Goal",
+    "budget": "Budget",
+    "employees": "Employees",
+    "createAgent": "Create Agent"
+  },
+  "agent": {
+    "title": "Agent",
+    "name": "Name",
+    "role": "Role",
+    "status": "Status",
+    "idle": "Idle",
+    "running": "Running",
+    "paused": "Paused",
+    "newAgent": "New Agent",
+    "reportsTo": "Reports to"
+  },
+  "issue": {
+    "title": "Issue",
+    "backlog": "Backlog",
+    "inProgress": "In Progress",
+    "review": "Review",
+    "done": "Done",
+    "newIssue": "New Issue",
+    "assignee": "Assignee",
+    "priority": "Priority"
+  },
+  "settings": {
+    "instanceSettings": "Instance Settings",
+    "companySettings": "Company Settings",
+    "general": "General",
+    "access": "Access",
+    "environments": "Environments"
+  }
+}

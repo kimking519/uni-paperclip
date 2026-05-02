@@ -17,6 +17,7 @@ import { MobileBottomNav } from "./MobileBottomNav";
 import { WorktreeBanner } from "./WorktreeBanner";
 import { DevRestartBanner } from "./DevRestartBanner";
 import { SidebarAccountMenu } from "./SidebarAccountMenu";
+import { LanguageSwitcher } from "../i18n/LanguageSwitcher";
 import { useDialogActions } from "../context/DialogContext";
 import { GeneralSettingsProvider } from "../context/GeneralSettingsContext";
 import { usePanel } from "../context/PanelContext";
@@ -343,6 +344,9 @@ export function Layout() {
                 <Sidebar />
               )}
             </div>
+            <div className="flex items-center gap-1 px-3 pb-2">
+              <LanguageSwitcher />
+            </div>
             <SidebarAccountMenu
               deploymentMode={health?.deploymentMode}
               instanceSettingsTarget={instanceSettingsTarget}
@@ -366,6 +370,9 @@ export function Layout() {
                   <Sidebar />
                 )}
               </div>
+            </div>
+            <div className="flex items-center gap-1 px-3 pb-2">
+              <LanguageSwitcher />
             </div>
             <SidebarAccountMenu
               deploymentMode={health?.deploymentMode}
